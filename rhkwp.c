@@ -55,7 +55,7 @@ int main() {
     pcap_t *handle;
     char errbuf[PCAP_ERRBUF_SIZE];
 
-    // 네트워크 인터페이스 선택 (예: "eth0")
+    // 네트워크 인터페이스 선택
     char *dev = "ens33";
 
     // 네트워크 디바이스 열기
